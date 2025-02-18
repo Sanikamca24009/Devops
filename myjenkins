@@ -18,6 +18,7 @@ pipeline {
   
         stage('last') {
             steps {
+             bat 'node hello'
                 echo 'last'
             }
         }
